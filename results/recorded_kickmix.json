@@ -1,0 +1,126 @@
+{
+  "evidence": "Historical local Kickmix synthetic circuits",
+  "accumulator_width": 16,
+  "rows": [
+    {
+      "partial_products": 2,
+      "parallel": {
+        "Q": 38,
+        "C_toffoli_like": 56,
+        "reaction_depth": 44,
+        "instrucciones": 226,
+        "coste_Q_por_C": 2128
+      },
+      "serial": {
+        "Q": 37,
+        "C_toffoli_like": 56,
+        "reaction_depth": 44,
+        "instrucciones": 226,
+        "coste_Q_por_C": 2072
+      },
+      "equivalence": {
+        "paralelo": 1,
+        "serializado": 1,
+        "esperado": 1,
+        "coinciden": true,
+        "correcto": true
+      }
+    },
+    {
+      "partial_products": 4,
+      "parallel": {
+        "Q": 44,
+        "C_toffoli_like": 112,
+        "reaction_depth": 70,
+        "instrucciones": 452,
+        "coste_Q_por_C": 4928
+      },
+      "serial": {
+        "Q": 41,
+        "C_toffoli_like": 112,
+        "reaction_depth": 70,
+        "instrucciones": 452,
+        "coste_Q_por_C": 4592
+      },
+      "equivalence": {
+        "paralelo": 2,
+        "serializado": 2,
+        "esperado": 2,
+        "coinciden": true,
+        "correcto": true
+      }
+    },
+    {
+      "partial_products": 8,
+      "parallel": {
+        "Q": 56,
+        "C_toffoli_like": 224,
+        "reaction_depth": 122,
+        "instrucciones": 904,
+        "coste_Q_por_C": 12544
+      },
+      "serial": {
+        "Q": 49,
+        "C_toffoli_like": 224,
+        "reaction_depth": 122,
+        "instrucciones": 904,
+        "coste_Q_por_C": 10976
+      },
+      "equivalence": {
+        "paralelo": 4,
+        "serializado": 4,
+        "esperado": 4,
+        "coinciden": true,
+        "correcto": true
+      }
+    },
+    {
+      "partial_products": 16,
+      "parallel": {
+        "Q": 80,
+        "C_toffoli_like": 448,
+        "reaction_depth": 226,
+        "instrucciones": 1808,
+        "coste_Q_por_C": 35840
+      },
+      "serial": {
+        "Q": 65,
+        "C_toffoli_like": 448,
+        "reaction_depth": 226,
+        "instrucciones": 1808,
+        "coste_Q_por_C": 29120
+      },
+      "equivalence": {
+        "paralelo": 8,
+        "serializado": 8,
+        "esperado": 8,
+        "coinciden": true,
+        "correcto": true
+      }
+    },
+    {
+      "partial_products": 32,
+      "parallel": {
+        "Q": 128,
+        "C_toffoli_like": 896,
+        "reaction_depth": 434,
+        "instrucciones": 3616,
+        "coste_Q_por_C": 114688
+      },
+      "serial": {
+        "Q": 97,
+        "C_toffoli_like": 896,
+        "reaction_depth": 434,
+        "instrucciones": 3616,
+        "coste_Q_por_C": 86912
+      },
+      "equivalence": {
+        "paralelo": 16,
+        "serializado": 16,
+        "esperado": 16,
+        "coinciden": true,
+        "correcto": true
+      }
+    }
+  ]
+}

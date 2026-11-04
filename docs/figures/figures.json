@@ -1,0 +1,256 @@
+{
+  "title": "Reversible ancilla scheduling",
+  "subtitle": "Measured qubit–depth trade-off in synthetic circuits",
+  "figures": [
+    {
+      "kind": "flow",
+      "id": "schedule",
+      "title": "Concurrent scratch versus scratch reuse",
+      "subtitle": "Both paths add the same partial products; only scratch lifetime differs",
+      "nodes": [
+        [
+          0.12,
+          0.39,
+          "Partial products"
+        ],
+        [
+          0.39,
+          0.15,
+          "Allocate k scratch",
+          "below"
+        ],
+        [
+          0.39,
+          0.72,
+          "Allocate one scratch"
+        ],
+        [
+          0.68,
+          0.15,
+          "Accumulate all",
+          "below"
+        ],
+        [
+          0.68,
+          0.72,
+          "Add then uncompute"
+        ],
+        [
+          0.89,
+          0.39,
+          "Same accumulator"
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "basis": "Technical schematic",
+      "source": "Source: code paths described in the README",
+      "alt": "Concurrent scratch versus scratch reuse. Partial products; Allocate k scratch; Allocate one scratch; Accumulate all; Add then uncompute; Same accumulator"
+    },
+    {
+      "kind": "xy",
+      "id": "qubits",
+      "title": "Qubit peak as the number of products increases",
+      "subtitle": "Local Kickmix synthetic accumulator, not an official challenge run",
+      "xlim": [
+        0,
+        32
+      ],
+      "ylim": [
+        0,
+        140
+      ],
+      "xlabel": "Number of partial products",
+      "ylabel": "Peak qubits (count)",
+      "series": [
+        {
+          "label": "Concurrent scratch",
+          "points": [
+            [
+              2,
+              38
+            ],
+            [
+              4,
+              44
+            ],
+            [
+              8,
+              56
+            ],
+            [
+              16,
+              80
+            ],
+            [
+              32,
+              128
+            ]
+          ]
+        },
+        {
+          "label": "One scratch",
+          "points": [
+            [
+              2,
+              37
+            ],
+            [
+              4,
+              41
+            ],
+            [
+              8,
+              49
+            ],
+            [
+              16,
+              65
+            ],
+            [
+              32,
+              97
+            ]
+          ]
+        }
+      ],
+      "source": "Source: results/recorded_kickmix.json",
+      "basis": "Recorded local simulation",
+      "alt": "Qubit peak as the number of products increases. Local Kickmix synthetic accumulator, not an official challenge run",
+      "xticks": [
+        0,
+        8,
+        16,
+        24,
+        32
+      ],
+      "yticks": [
+        0,
+        35,
+        70,
+        105,
+        140
+      ]
+    },
+    {
+      "kind": "flow",
+      "id": "verify",
+      "title": "Check semantic and resource properties separately",
+      "subtitle": "A classical fixture is one test of the reversible schedule",
+      "nodes": [
+        [
+          0.1,
+          0.51,
+          "Construct circuit"
+        ],
+        [
+          0.3666666666666667,
+          0.51,
+          "Simulate fixture"
+        ],
+        [
+          0.6333333333333333,
+          0.51,
+          "Assert accumulator"
+        ],
+        [
+          0.9000000000000001,
+          0.51,
+          "Read Q and C"
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          ""
+        ],
+        [
+          1,
+          2,
+          ""
+        ],
+        [
+          2,
+          3,
+          ""
+        ]
+      ],
+      "basis": "Technical schematic",
+      "source": "Source: code paths described in the README",
+      "alt": "Check semantic and resource properties separately. Construct circuit; Simulate fixture; Assert accumulator; Read Q and C"
+    },
+    {
+      "kind": "flow",
+      "id": "reuse",
+      "title": "Keep the tooling boundary explicit",
+      "subtitle": "No organizer binary is redistributed",
+      "nodes": [
+        [
+          0.1,
+          0.51,
+          "Original experiment"
+        ],
+        [
+          0.3666666666666667,
+          0.51,
+          "External Kickmix"
+        ],
+        [
+          0.6333333333333333,
+          0.51,
+          "Recorded metrics"
+        ],
+        [
+          0.9000000000000001,
+          0.51,
+          "Project citation"
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1,
+          ""
+        ],
+        [
+          1,
+          2,
+          ""
+        ],
+        [
+          2,
+          3,
+          ""
+        ]
+      ],
+      "basis": "Technical schematic",
+      "source": "Source: code paths described in the README",
+      "alt": "Keep the tooling boundary explicit. Original experiment; External Kickmix; Recorded metrics; Project citation"
+    }
+  ]
+}
