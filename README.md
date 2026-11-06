@@ -2,6 +2,8 @@
 
 ![Reversible ancilla scheduling editorial cover. Illustrative, no experimental data.](docs/figures/cover.gif)
 
+**Copyright © 2026 Francisco Angulo de Lafuente. Attribution recorded: 2026-11-06.**
+
 **Research author:** [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) · [Citation](CITATION.cff).
 
 ## Research question
@@ -34,12 +36,18 @@ Run the [experiment](src/measure_kickmix.py) with the separately obtained organi
 
 *Keep the tooling boundary explicit.* [Static figure](docs/figures/reuse.png).
 
-The original competition-related experiment is released under [Apache-2.0](LICENSE), consistent with the competition's stated licence for solution code. The independent figure renderer uses [MIT](LICENSE.figures). Please cite the author and retain upstream terms for all separate tools.
+The local synthetic experiment source is designated [Apache-2.0](LICENSE) for `src/measure_kickmix.py`; the independent figure renderer is designated [MIT](LICENSE.figures) for `tools/render_lab_figures.py`. See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) for the file-level record. The recorded results, figure specification, cover artwork, generated images, and other documents have separate provenance and license questions; this record makes no new license claim for them. The external Kickmix runtime and organizer verifiers are not bundled.
+
+Google's [official announcement](https://opensource.googleblog.com/2026/10/announcing-verifiable-quantum-circuit-compilation-competition-on-kaggle.html) states that the organizer-provided reference circuits and standalone verifiers are Apache-2.0. It does not establish an Apache-2.0 requirement for this separate experiment. The official [Kaggle rules page](https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/rules) returned no readable text during this review on 2026-11-06, so this repository does not claim verified compliance with every competition-specific sharing term.
 
 ## Bibliography and proposed checks
 
 - [Bennett (1989), Time/Space Trade-Offs for Reversible Computation](https://doi.org/10.1137/0218053). Compare scratch lifetime and recomputation rather than assuming the cheapest schedule is universal.
 
-**Attribution.** Cite [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) using [CITATION.cff](CITATION.cff). Apache-2.0 applies to the experiment source; the original figure renderer uses MIT. Preserve applicable copyright and permission notices and do not present this work as your own. [License](LICENSE) · [Figure methods and provenance](docs/figures/README.md).
+**Attribution.** Cite [Francisco Angulo de Lafuente](https://orcid.org/0009-0001-1634-7063) using [CITATION.cff](CITATION.cff). Preserve the distinct code notices and consult [LICENSE_SCOPE.md](LICENSE_SCOPE.md) before reusing any other repository material. [License](LICENSE) · [Figure methods and provenance](docs/figures/README.md).
 
-<!-- research-provenance: project=reversible-ancilla-scheduling; edition=2026-11-04; creator=Francisco Angulo de Lafuente; orcid=https://orcid.org/0009-0001-1634-7063; figure-renderer-license=MIT -->
+**Reuse notice for the original renderer file listed in LICENSE_SCOPE.md:**
+
+This project contains open-source material under the MIT License. When redistributing copies or substantial portions, retain the copyright and permission notices. If you build on this work, please cite the project and credit Francisco Angulo de Lafuente (ORCID: 0009-0001-1634-7063). Help advance scientific knowledge: we welcome reproducible results, corrections, and contributions.
+
+<!-- research-provenance: project=reversible-ancilla-scheduling; original-record=2026-11-04; creator=Francisco Angulo de Lafuente; orcid=https://orcid.org/0009-0001-1634-7063; attribution-recorded-on=2026-11-06; source-license-scope=LICENSE_SCOPE.md; rules-status=unverified -->

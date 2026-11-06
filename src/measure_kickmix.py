@@ -5,6 +5,7 @@
 # Research-Project: reversible-ancilla-scheduling
 # Research-Date: 2026-11-04
 # Research-ORCID: https://orcid.org/0009-0001-1634-7063
+# Attribution-Recorded-On: 2026-11-06
 # Reuse: preserve applicable notices and cite the original author.
 
 """Experimento controlado: canjear profundidad (gratis) por qubits (caros).

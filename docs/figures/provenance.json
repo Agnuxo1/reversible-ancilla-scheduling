@@ -1,11 +1,14 @@
 {
   "project": "reversible-ancilla-scheduling",
-  "date": "2026-11-04",
+  "original_figure_record_date": "2026-11-04",
+  "attribution_recorded_on": "2026-11-06",
   "creator": {
     "name": "Francisco Angulo de Lafuente",
     "orcid": "https://orcid.org/0009-0001-1634-7063"
   },
-  "figureRendererLicense": "MIT",
-  "projectLicense": "Apache-2.0",
-  "licenseFile": "LICENSE"
+  "experiment_source_license": "Apache-2.0; see root LICENSE_SCOPE.md",
+  "figure_renderer_license": "MIT; see LICENSE_SCOPE.md",
+  "cover_source_status": "Unresolved; no source metadata recorded for docs/figures/cover.jpg",
+  "generated_figure_license": "Unresolved; no license inferred from renderer license",
+  "scope_file": "../../LICENSE_SCOPE.md"
 }

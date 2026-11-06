@@ -122,5 +122,14 @@
         "correcto": true
       }
     }
-  ]
+  ],
+  "provenance": {
+    "creator": "Francisco Angulo de Lafuente",
+    "orcid": "https://orcid.org/0009-0001-1634-7063",
+    "original_record_date": "2026-11-04",
+    "attribution_recorded_on": "2026-11-06",
+    "record_type": "Synthetic local Kickmix resource measurements; not an official competition score or participant circuit.",
+    "generated_by": "src/measure_kickmix.py using an external Kickmix runtime not included here.",
+    "license_status": "No new license claim for recorded values; see LICENSE_SCOPE.md."
+  }
 }

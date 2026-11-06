@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "project": "reversible-ancilla-scheduling",
+  "canonical_url": "https://github.com/Agnuxo1/reversible-ancilla-scheduling",
+  "captured_on": "2026-11-06",
+  "baseline_commit": "62075701d3545206e2e4f8d74e0588de4479ad29",
+  "baseline_commit_author_date": "2026-11-04T10:48:13+01:00",
+  "baseline_commit_author": "Francisco Angulo de Lafuente <166046035+Agnuxo1@users.noreply.github.com>",
+  "branch": "main",
+  "method": "SHA-256 over exact Git blob bytes; passage fingerprints normalize Unicode with casefold and collapse whitespace. Selected original tracked text only; binary assets excluded.",
+  "file_hashes": [
+    {
+      "path": ".gitignore",
+      "sha256": "8f683c63214e060178461a5343cfcc0cce128ebb8dd17266c7a0b19eb83fc6ec",
+      "bytes": 73
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "b92c03e8156ea9237deae4e401de09a9176769a79e816e50e1a9d993dfe08f7e",
+      "bytes": 363
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8097f13f9b6334f907c16c98623eb32a0e451f013bb99939e6aed9d4bc72c386",
+      "bytes": 11354
+    },
+    {
+      "path": "LICENSE.figures",
+      "sha256": "74ef212ad04f833d2b738f5e655816120f0baf217ff99417c4c7e4c310e07bcf",
+      "bytes": 826
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "50554420fc7c54d636bce7cde5869f19622191af15bdf4e626952823dd577020",
+      "bytes": 336
+    },
+    {
+      "path": "README.md",
+      "sha256": "ccae32483c36a57deb2d6caa321e54027eeacd2ad0da0fe1ddfc5b7b842355db",
+      "bytes": 3581
+    },
+    {
+      "path": "codemeta.json",
+      "sha256": "60b42eef5aff7e84667dd76c814e23b131b47c3f496bd7cf05d76a0d6bf5acf0",
+      "bytes": 465
+    },
+    {
+      "path": "docs/figures/README.md",
+      "sha256": "76582972f9b368afb6d1c52e431a2c8b4d63a190ab55bfd42abd6fc442c40cfd",
+      "bytes": 706
+    },
+    {
+      "path": "docs/figures/figures.json",
+      "sha256": "f4f70dbfc9b56bec110cc94f1a98a667524e97f9d284e4706c04100e15eb3a19",
+      "bytes": 5146
+    },
+    {
+      "path": "docs/figures/provenance.json",
+      "sha256": "bb62dfbb48c8776c1da4b6fa13a1010a540dc53756e9fed971aef25a0de14f23",
+      "bytes": 286
+    },
+    {
+      "path": "results/recorded_kickmix.json",
+      "sha256": "e67b3aadf0d8b72d2893a43ee5b6e4a8d6584cdb18c9d9fa3cd666f38348d24a",
+      "bytes": 2773
+    },
+    {
+      "path": "src/measure_kickmix.py",
+      "sha256": "91189660c4f73bb8280d9905c71feb58d1a475047ca625cd35e88a433bd9efd3",
+      "bytes": 7899
+    },
+    {
+      "path": "tools/render_lab_figures.py",
+      "sha256": "412d36cbb0205fa7ff7c807625c843174bca84b1ea7c14033b73297ba38749ab",
+      "bytes": 10244
+    }
+  ],
+  "passage_fingerprints": [
+    {
+      "path": "README.md",
+      "passage": "This original experiment is related to the [Google Quantum AI compilation challenge](https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation). It is a local research study, not a contestant circuit, official evaluation or hardware experiment.",
+      "normalization": "Unicode casefold and collapse all whitespace runs to one space",
+      "sha256": "cc43a6a1e8c33b816a401113ef330b4042f0db78f1811cc5f66ea2ef945e8aee"
+    },
+    {
+      "path": "src/measure_kickmix.py",
+      "passage": "H: en el modelo de coste de este concurso, serializar un acumulador de productos",
+      "normalization": "Unicode casefold and collapse all whitespace runs to one space",
+      "sha256": "30e008cd6ddfc57efa8014a354756d5720e2c4cacd688bbc49629f29009b6f76"
+    },
+    {
+      "path": "src/measure_kickmix.py",
+      "passage": "Control: ambas variantes calculan LO MISMO; se comprueba que coinciden",
+      "normalization": "Unicode casefold and collapse all whitespace runs to one space",
+      "sha256": "e2e531ef624cbbbce577bda1769fba6851f04ff59e220bdfa95a0733b937b3f7"
+    },
+    {
+      "path": "tools/render_lab_figures.py",
+      "passage": "Francisco Angulo de Lafuente  ·  ORCID 0009-0001-1634-7063",
+      "normalization": "Unicode casefold and collapse all whitespace runs to one space",
+      "sha256": "4ef417fc4ffbcf4e281129497093ae60592cdc5d10dd7387511655553de80ba7"
+    },
+    {
+      "path": "NOTICE",
+      "passage": "Original synthetic scheduling experiment by Francisco Angulo de Lafuente (https://orcid.org/0009-0001-1634-7063). Kickmix and the organizer verifiers are external tools; they are not redistributed.",
+      "normalization": "Unicode casefold and collapse all whitespace runs to one space",
+      "sha256": "47d5385a62e26f95431ed2ce39f74c14a37c2b623d4fa7414b2001cc87c70919"
+    }
+  ]
+}

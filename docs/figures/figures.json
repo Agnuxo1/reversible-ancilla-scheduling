@@ -252,5 +252,14 @@
       "source": "Source: code paths described in the README",
       "alt": "Keep the tooling boundary explicit. Original experiment; External Kickmix; Recorded metrics; Project citation"
     }
-  ]
+  ],
+  "provenance": {
+    "project": "reversible-ancilla-scheduling",
+    "creator": "Francisco Angulo de Lafuente",
+    "orcid": "https://orcid.org/0009-0001-1634-7063",
+    "original_record_date": "2026-11-04",
+    "attribution_recorded_on": "2026-11-06",
+    "cover_source_status": "Unresolved; see ../../LICENSE_SCOPE.md",
+    "figure_output_license": "Unresolved; see ../../LICENSE_SCOPE.md"
+  }
 }

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "project": "reversible-ancilla-scheduling",
+  "author": {
+    "name": "Francisco Angulo de Lafuente",
+    "orcid": "https://orcid.org/0009-0001-1634-7063"
+  },
+  "recorded_on": "2026-11-06",
+  "canonical_url": "https://github.com/Agnuxo1/reversible-ancilla-scheduling",
+  "repository": {
+    "github_id": 1445442828,
+    "visibility": "public",
+    "default_branch": "main",
+    "baseline_commit": "62075701d3545206e2e4f8d74e0588de4479ad29",
+    "baseline_commit_author_date": "2026-11-04T10:48:13+01:00",
+    "baseline_commit_author": "Francisco Angulo de Lafuente <166046035+Agnuxo1@users.noreply.github.com>",
+    "observed_branches": [
+      "main"
+    ],
+    "tags": [],
+    "releases": 0,
+    "actions_runs": 0
+  },
+  "authorship_basis": [
+    "Single root commit by the user-confirmed Agnuxo1 account.",
+    "Source/CFF/CodeMeta and existing SPDX headers attribute the experiment and renderer to Francisco.",
+    "This commit attribution does not by itself establish rights in every result or image asset.",
+    "The original source comments mention aggregate resource-count comparisons with a public submission and a Google reference; exact citations are missing, so the comparison provenance remains unresolved."
+  ],
+  "license_scopes": {
+    "Apache-2.0": {
+      "files": [
+        "src/measure_kickmix.py"
+      ],
+      "basis": "Existing SPDX header and root license."
+    },
+    "MIT": {
+      "files": [
+        "tools/render_lab_figures.py"
+      ],
+      "basis": "Existing SPDX header and LICENSE.figures."
+    },
+    "unresolved": [
+      "recorded result values",
+      "figure specification",
+      "cover image and generated image assets",
+      "documentation and metadata outside the two code files",
+      "all external competition materials not included in tracked files",
+      "exact sources and rights context for aggregate public-submission/reference resource counts mentioned in source comments"
+    ]
+  },
+  "competition": {
+    "name": "Google Quantum AI - Verifiable Quantum Circuit Compilation",
+    "kaggle_url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation",
+    "rules_url": "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/rules",
+    "rules_access": "Opened 2026-11-06; returned zero readable lines.",
+    "google_announcement_url": "https://opensource.googleblog.com/2026/10/announcing-verifiable-quantum-circuit-compilation-competition-on-kaggle.html",
+    "google_announcement_date": "2026-10-21",
+    "verified_license_scope": "The official announcement states organizer-provided reference circuits and standalone verifiers are Apache-2.0; it does not establish a rule requiring Apache-2.0 for all entrant code.",
+    "repo_relation": "README describes a local synthetic study, not a contestant circuit, official evaluation, or hardware experiment. Source imports external Kickmix; no competition dataset, circuit, notebook, or submission bundle appears in the tracked files. One source comment cites aggregate resource counts from a public submission and Google reference without exact sources; this provenance remains unresolved."
+  },
+  "publication_state": "already public; no visibility change",
+  "baseline_file": "provenance-baseline.json"
+}
